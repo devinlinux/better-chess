@@ -62,7 +62,7 @@ public class StartMenu implements Runnable {
 
         /* time control */
 
-        //  filling an array with the numbers 0 to 60
+        //  filling an array with the numbers 0 to 59
         final String[] minSecOpts = new String[60];
         for (int i = 0; i < minSecOpts.length; i++) 
             minSecOpts[i] = i < 10 ? "0" + i : "" + i;
